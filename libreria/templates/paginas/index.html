@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block titulo %} Catalogo {% endblock %}
+
+{% block contenido %} 
+    <header>
+        <div class="banner">
+            <div class="overlay">
+
+                <div class="container pt-5">
+                    <br>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card invisible-card">
+                                <div class="card-body text-center">
+                                    <a href="albums">
+                                        <img src="/libreria/templates/img/discos.jpg" class="imag">
+                                    </a>
+                                    <br>
+                                    <br>
+                                    <div class="">
+                                        <h2>Albums</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card invisible-card">
+                                <div class="card-body text-center">
+                                    <a href="artistas">
+                                        <img src="/libreria/templates/img/micro.jpg" class="imag">
+                                    </a>
+                                    <br>
+                                    <br>
+                                    <div class="">
+                                        <h2>Artistas</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+{% endblock %}

@@ -1,0 +1,50 @@
+.navbar {
+    background-color: #cf6e148e;
+}
+
+.banner {
+    position: relative;
+    background: url(../img/tocadisco.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.527);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 0.493);
+    font-weight: bold;
+}
+
+.imag {
+    max-width: 55%;
+    border-radius: 25px;
+    transition: transform 0.5s ease, filter 0.5s ease;
+
+}
+
+.imag:hover {
+    transform: scale(1.1);
+    filter: brightness(130%);
+
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.invisible-card {
+    background-color: transparent;
+    border: none;
+}
